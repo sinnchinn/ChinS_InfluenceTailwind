@@ -1514,8 +1514,7 @@ input:checked + .toggle-bg {
 }
 
 .bg-custom-bg-card {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 238 244 / var(--tw-bg-opacity));
+  background-color: rgba(229, 238, 244, 0.8);
 }
 
 .bg-custom-blue {
@@ -1564,12 +1563,28 @@ input:checked + .toggle-bg {
   background-image: url(../assets/background.jpg);
 }
 
+.bg-bg-png {
+  background-image: url(../assets/mob1.png);
+}
+
+.bg-bg-png2 {
+  background-image: url(../assets/reigen1last.png);
+}
+
+.bg-bg-png3 {
+  background-image: url(../assets/dimple1.png);
+}
+
 .bg-contain {
   background-size: contain;
 }
 
 .bg-center {
   background-position: center;
+}
+
+.bg-repeat {
+  background-repeat: repeat;
 }
 
 .bg-no-repeat {
@@ -1707,10 +1722,6 @@ input:checked + .toggle-bg {
   font-weight: 600;
 }
 
-.font-extralight {
-  font-weight: 200;
-}
-
 .leading-6 {
   line-height: 1.5rem;
 }
@@ -1734,6 +1745,11 @@ input:checked + .toggle-bg {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -1747,21 +1763,6 @@ input:checked + .toggle-bg {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
-.text-gray-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .underline {
