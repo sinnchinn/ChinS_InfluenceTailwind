@@ -13,7 +13,7 @@ module.exports = {
     colors: {
       'custom-blue': 'rgba(181, 207, 231, 0.8)',
       'custom-yellow': '#F4EFD1',
-      'custom-bg-card': '#D5E7F9'
+      'custom-bg-card': '#E5EEF4'
     },
     extend: {
       fontFamily: {
