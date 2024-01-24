@@ -12,7 +12,7 @@ module.exports = {
   theme: {
     colors: {
       'custom-blue': 'rgba(181, 207, 231, 0.8)',
-      'custom-yellow': '#F1ECCE',
+      'custom-yellow': '#F4EFD1',
       'custom-bg-card': '#D5E7F9'
     },
     extend: {
@@ -20,7 +20,7 @@ module.exports = {
         elite: ['Special Elite', ...defaultTheme.fontFamily.sans]
       },
       backgroundImage: {
-        'bg-hero': 'url(../assets/bgg2.jpg)'
+        'bg-hero': 'url(../assets/background.jpg)',
       }
     },
   },
